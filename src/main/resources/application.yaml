@@ -1,0 +1,22 @@
+spring:
+  rsocket:
+    server.port: 7000
+  data:
+    mongodb:
+      database: currency
+      host: mongo
+      port: 27017
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info,health,prometheus,conditions,metrics
+
+ext:
+  services:
+    cb.url: http://www.cbr.ru/scripts
+
+logging.level:
+  io.rsocket: DEBUG
+

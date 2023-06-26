@@ -1,0 +1,19 @@
+version: "3.7"
+
+networks:
+  backend:
+ 
+services:
+  app:
+    image: eshishkin/demo-rsocket
+    ports:
+      - 8080:8080
+    depends_on:
+      - mongo
+    networks:
+      - backend
+
+  mongo:
+    image: mongo:4.0.10
+    networks:
+      - backend

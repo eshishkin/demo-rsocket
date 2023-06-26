@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<ValCurs ID="R01235" DateRange1="01.02.2023" DateRange2="07.02.2023" name="Foreign Currency Market Dynamic">
+    <Record Date="01.02.2023" Id="R01235">
+        <Nominal>1</Nominal>
+        <Value>70,5174</Value>
+    </Record>
+    <Record Date="02.02.2023" Id="R01235">
+        <Nominal>1</Nominal>
+        <Value>70,1217</Value>
+    </Record>
+    <Record Date="03.02.2023" Id="R01235">
+        <Nominal>1</Nominal>
+        <Value>70,0414</Value>
+    </Record>
+    <Record Date="04.02.2023" Id="R01235">
+        <Nominal>1</Nominal>
+        <Value>70,3847</Value>
+    </Record>
+    <Record Date="07.02.2023" Id="R01235">
+        <Nominal>1</Nominal>
+        <Value>70,5991</Value>
+    </Record>
+</ValCurs>
